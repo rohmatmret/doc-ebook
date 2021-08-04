@@ -29,3 +29,17 @@ In Order to Use API You must request by email gramedia digital Then we will then
     "approval_date":"2021-02-01"
  }
 ```
+
+
+# Authentication Users ebook 
+
+- Login
+- Endpoint : {baseUrl}/login
+- Method : POST
+- Body 
+```json
+{
+   "email":"yourmail.com",
+   "password":"yourpassword"
+}
+```
